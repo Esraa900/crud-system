@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title> CRUD System</title>
+</head>
+<body>
+    <section class="container d-flex flex-column justify-content-center main">
+        <h1 class="text-capitalize mt-5 mb-5">book marker</h1>
+        
+        <div class="p-2 bookmarker">
+            <div class="bg-bookmarker d-flex flex-column justify-content-center align-items-center p-5">
+                <h2 class="text-capitalize mb-5">book mark your favorite site</h2>
+                <h4 class="text-capitalize mb-3">site name</h4>
+                <input id="bookmarkerName" type="text" class="form-control w-75 mb-3" placeholder="Bookmarker Name">
+                <h4 class="text-capitalize mb-3">site url</h4>
+                <input id="siteUrl" type="text" class="form-control w-75 mb-3" placeholder="Website URL">
+                <button class="add-site" onclick="getData()">submit</button>
+            </div>
+        </div>
+        
+        <p class="text-capitalize">&copy; 2022 bookmarker inc</p> 
+
+        <table class="table m-auto text-center table-striped">
+            <thead>
+              <th >Index</th>
+              <th >site name</th>
+              <th >site url</th>
+              <th >visit</th>
+              <th >delete</th>
+            </thead>
+            <tbody id="tableBody">
+              
+            </tbody>
+        </table>
+    </section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

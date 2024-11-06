@@ -1,0 +1,94 @@
+:root {
+  font-size: 16px;
+  --font: 'Aref Ruqaa Ink', serif;
+}
+
+.main {
+    height: 100vh;
+    
+}
+
+h1 , 
+p {
+  color: #AEA8A6;
+  font-family: var(--font);
+  font-weight: 800;
+}
+
+.bookmarker {
+  border-top: 1px solid #C1C1C1;
+  border-bottom: 1px solid #C1C1C1;
+}
+
+.bg-bookmarker {
+  background-color: #EEEEEE;
+  font-family: var(--font);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.add-site {
+    font-size: 1rem;
+    color : #fff;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    padding: 4px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    transition: 1s ease;
+}
+
+.add-site:hover {
+    color: cadetblue;
+    background-color: transparent;
+    border: 1px solid cadetblue;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1rem;
+}
+
+table {
+    font-family: var(--font);
+    text-transform: capitalize;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+td {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.index {
+    color : #AEA8A6;
+    font-weight: bolder;
+}
+
+.style-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(210, 24, 24)
+}
+
+a {
+    text-decoration: none;
+    color: #41949d;
+}
+
+a:hover {
+    color: #41949d;
+}
